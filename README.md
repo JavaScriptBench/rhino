@@ -1,8 +1,30 @@
 # Rhino: JavaScript in Java
 
-![Rhino](https://developer.mozilla.org/@api/deki/files/832/=Rhino.jpg)
-
 Rhino is an implementation of JavaScript in Java.
+
+========================================================================
+
+Just
+
+```
+git clone https://github.com/JavaScriptBench/rhino.git
+git checkout a3ac11a
+cd rhino/
+./gradlew jar
+java -jar buildGradle/libs/rhino-1.7.12.jar -debug -version 200 test.js 
+
+
+wget https://github.com/mozilla/rhino/releases/download/Rhino1_7_13_Release/rhino-1.7.13.jar
+java -jar ./rhino-1.7.13.jar -debug -version 200
+java -jar ./rhino-1.7.13.jar -debug -version 200 test.js
+java -jar ./rhino-1.7.13.jar -debug test.js
+
+```
+
+
+========================================================================
+
+
 
 ## License
 
