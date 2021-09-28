@@ -18,7 +18,7 @@ wget https://github.com/mozilla/rhino/releases/download/Rhino1_7_13_Release/rhin
 java -jar ./rhino-1.7.13.jar -debug -version 200
 java -jar ./rhino-1.7.13.jar -debug -version 200 test.js
 java -jar ./rhino-1.7.13.jar -debug test.js
-
+java -Xint -jar ./rhino-1.7.13.jar  -debug test.js
 ```
 
 
